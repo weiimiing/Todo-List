@@ -4,7 +4,7 @@ import React, { useEffect, useCallback, useState } from "react";
 
 
 const initialGlobalState = {
-  count: 0,
+  count: 1,
   todos: []
 };
 
