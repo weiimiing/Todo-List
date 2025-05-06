@@ -12,7 +12,7 @@ This is the todo app for Winston that is built using react
 
 ## Technologies Used
 
-### 1. **Mostly TypeScript**
+### 1. **Mostly TypeScript as I am more used to it**
 ### 2. **ShadCN Components as a component library**
 ### 3. **Vite**
 ## Getting Started
