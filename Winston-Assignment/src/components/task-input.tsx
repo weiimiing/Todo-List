@@ -26,7 +26,7 @@ export default function TaskInput({
         }}
         className="flex-1"
       />
-      <Button onClick={handleAddTodo} size="sm">
+      <Button onClick={handleAddTodo} size="sm" className="bg-slate-700">
         <Plus className="h-4 w-4 mr-1" />
         Add
       </Button>

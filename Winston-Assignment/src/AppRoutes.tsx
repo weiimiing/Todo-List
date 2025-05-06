@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import TodoPage from "./pages/todo";
-import RandomPage from "./pages/randomPage";
+import TodoPage from "@/pages/TodoPage";
+import RandomPage from "@/pages/randomPage";
 
 export default function AppRoutes() {
   return (

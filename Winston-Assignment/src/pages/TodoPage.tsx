@@ -51,18 +51,18 @@ export default function TodoPage() {
   }
 
   return (
-    <div className="flex flex-col h-full">
-      <header className="sticky top-0 z-10 flex h-14 items-center gap-4 border-b bg-background px-4 lg:h-[60px]">
+    <div className="flex flex-col h-full bg-slate-50 ">
+      <header className="sticky top-0 z-10 flex h-14 items-center gap-4 border-b px-4 lg:h-[60px]">
         <SidebarTrigger className=""/>
         <div className="flex flex-1 items-center justify-between">
-          <h1 className="text-xl font-semibold">Todo List</h1>
+          <h1 className="text-xl font-semibold text-slate-800">Todo List</h1>
         </div>
       </header>
 
       <div className="flex-1 flex flex-col p-4 md:p-8">
       <div className="w-full max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold mb-2">My Tasks</h2>
+          <h2 className="text-3xl font-bold mb-2 text-slate-800" >My Tasks</h2>
           <p className="text-muted-foreground">Manage your tasks efficiently</p>
         </div>
 

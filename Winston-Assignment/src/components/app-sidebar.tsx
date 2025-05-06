@@ -29,7 +29,7 @@ const items = [
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
-    <Sidebar collapsible="offcanvas" {...props}>
+    <Sidebar collapsible="offcanvas"  {...props}>
      <SidebarHeader className="h-14 border-b border-sidebar-border">
         <SidebarMenu>
           <SidebarMenuItem>
@@ -37,8 +37,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               <Link to="/todo">
              
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="font-semibold">Todo App</span>
-                  <span className="text-xs text-sidebar-foreground/70">Organize your tasks</span>
+                  <span className="font-semibold text-slate-800">Todo App</span>
+                  <span className="text-xs text-sidebar-foreground/70 ">Organize your tasks</span>
                 </div>
               </Link>
             </SidebarMenuButton>
@@ -54,7 +54,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               <Link to={item.url}>
                 <SidebarMenuButton tooltip={item.title}>
                   {item.icon && <item.icon />}
-                  <span>{item.title}</span>
+                  <span className="text-slate-800">{item.title}</span>
                 </SidebarMenuButton>
               </Link>
             </SidebarMenuItem>
