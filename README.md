@@ -14,7 +14,8 @@ This is the todo app for Winston that is built using react
 
 ### 1. **Mostly TypeScript as I am more used to it**
 ### 2. **ShadCN Components as a component library**
-### 3. **Vite**
+### 3. **TailwindCSS for styling**
+### 4. **Vite**
 ## Getting Started
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -23,3 +24,4 @@ This is the todo app for Winston that is built using react
 ### Installation
 1. Clone the repository
 2. ```npm install to install dependancies```
+3. ```npm run dev to run on localhost```
