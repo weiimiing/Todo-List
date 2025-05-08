@@ -23,5 +23,5 @@ This is the todo app for Winston that is built using react
 
 ### Installation
 1. Clone the repository
-2. ```npm install``` to install dependancies
+2. ```npm install --force``` to install dependancies 
 3. ```npm run dev``` to run on localhost
